@@ -1,0 +1,56 @@
+body{
+    background-image: url(../back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin-left: 30vw;  
+}
+.head h1{
+    color: bisque;
+}
+.head img{
+    height: 20vw;
+    position: sticky;
+    top: -25px;
+}
+.change {
+    color: rosybrown !important;
+}
+
+.sidebar li{
+    font-size: 3vw;
+    font-family: Lobster;
+    margin-top: 5%;
+   
+    
+}
+.sidebar ul{
+    list-style-type: none;
+    margin-top: 20vw;
+    position: fixed;
+    top: 0;
+    
+}
+.sidebary{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-around !important; 
+}
+
+.sidebar a{
+    text-decoration: none; 
+    color: rgb(235, 183, 235);
+}
+.sidebar a:visited{
+    color: rgb(235, 183, 235);
+}
+.sidebar a:hover{
+    color: rgb(11, 107, 136);
+}
+.main{
+    display: grid;
+    grid-template-rows: 1500px;
+}
