@@ -8,13 +8,9 @@ body{
 .head{
     margin-left: 30vw;  
 }
-.head h1{
-    color: bisque;
-}
 .head img{
-    height: 20vw;
+    height: 400px;
     position: sticky;
-    top: -25px;
 }
 .change {
     color: rosybrown !important;
@@ -32,12 +28,24 @@ body{
     margin-top: 20vw;
     position: fixed;
     top: 0;
-    
+    transition: left .5s;
 }
 .sidebary{
     display: flexbox;
     flex-direction: column;
     justify-content: space-around !important; 
+}
+.borgar{
+    margin: 50px;
+    position: sticky;
+    top: 50px;
+}
+.borgar img{
+    height: 50px;
+}
+.sidebarthere{
+    left: -300px;
+    transition: left 2s;
 }
 
 .sidebar a{

@@ -1,8 +1,9 @@
-console.log("pidor");
-const p = document.querySelector(".head h1")
-const change = document.querySelector(".change")
+console.log("cba");
+const p = document.querySelector(".sidebar ul");
+const burg = document.querySelector(".borgar");
 
-p.addEventListener("click", function(){
-    console.log("pidor");
-    p.classList.add("change");
+burg.addEventListener("click", function(){
+    console.log("abc");
+    p.classList.toggle("sidebarthere");
 });
+
