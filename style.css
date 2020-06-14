@@ -9,8 +9,8 @@ body{
     margin-left: 30vw;  
 }
 .head img{
-    height: 400px;
-    position: sticky;
+    
+    position: fixed;
 }
 .change {
     color: rosybrown !important;
