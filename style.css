@@ -15,27 +15,25 @@ body{
 .header{
     display: flex;
     align-items: center;
-
+    position: relative;
 }
 .cart{
     margin-left: 50vw;
 }
 .main{
-    display: grid;
-    grid-template-columns: 20vw 50vw 30vw;
-    grid-template-rows: auto;
+    position: absolute;
+    width: 500px;
+    left: calc(50vw - 250px);
+    top: 115%;
+    text-align: center;
 }
 .sidebar{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-row-end: 2;
+    left: 0px;
 }
 .sidebar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
     margin: 30px;
   }
 .sidebar li{
