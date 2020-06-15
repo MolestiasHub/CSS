@@ -29,6 +29,8 @@ body{
 }
 .sidebar{
     left: 0px;
+    position: absolute;
+    transition: left 1s;
 }
 .sidebar ul {
     list-style-type: none;
