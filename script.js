@@ -1,5 +1,5 @@
 console.log("cba");
-const p = document.querySelector(".sidebar ul");
+const p = document.querySelector(".sidebar");
 const burg = document.querySelector(".borgar");
 
 burg.addEventListener("click", function(){

@@ -1,64 +1,58 @@
 body{
-    background-image: url(../back2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     margin: 0;
     padding: 0;
-}
-.head{
-    margin-left: 30vw;  
-}
-.head img{
-    
-    position: fixed;
-}
-.change {
-    color: rosybrown !important;
-}
-
-.sidebar li{
-    font-size: 3vw;
-    font-family: Lobster;
-    margin-top: 5%;
-   
-    
-}
-.sidebar ul{
-    list-style-type: none;
-    margin-top: 20vw;
-    position: fixed;
-    top: 0;
-    transition: left .5s;
-}
-.sidebary{
-    display: flexbox;
-    flex-direction: column;
-    justify-content: space-around !important; 
+    background-image: url(back2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .borgar{
-    margin: 50px;
-    position: sticky;
-    top: 50px;
+    padding: 50px;
+    width: 5vw;
 }
-.borgar img{
-    height: 50px;
+.logo{
+    height: 10vw;
 }
-.sidebarthere{
-    left: -300px;
-    transition: left 2s;
-}
+.header{
+    display: flex;
+    align-items: center;
 
-.sidebar a{
-    text-decoration: none; 
-    color: rgb(235, 183, 235);
 }
-.sidebar a:visited{
+.cart{
+    margin-left: 50vw;
+}
+.main{
+    display: grid;
+    grid-template-columns: 20vw 50vw 30vw;
+    grid-template-rows: auto;
+}
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin: 30px;
+  }
+.sidebar li{
+    display: block;
+    width: 60px;
+    font-family: "Lobster";
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+.sidebar a{
     color: rgb(235, 183, 235);
+    text-decoration: none;
 }
 .sidebar a:hover{
     color: rgb(11, 107, 136);
 }
-.main{
-    display: grid;
-    grid-template-rows: 1500px;
+.sidebarthere{
+    left: -300px;
 }
