@@ -8,7 +8,7 @@ body{
 .borgar{
     padding: 50px;
     width: 5vw;
-    transition-duration: .5s;
+    transition-duration: 1s;
 }
 .borgarpos{
     transform: rotate(180deg);
@@ -50,7 +50,8 @@ body{
 .sidebar{
     left: 0px;
     position: fixed;
-    transition: left 1s;
+    transition: left;
+    transition-duration: 1s;
 }
 .sidebar ul {
     list-style-type: none;
