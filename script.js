@@ -5,5 +5,6 @@ const burg = document.querySelector(".borgar");
 burg.addEventListener("click", function(){
     console.log("abc");
     p.classList.toggle("sidebarthere");
+    burg.classList.toggle("borgarpos")
 });
 

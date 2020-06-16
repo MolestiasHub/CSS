@@ -8,6 +8,11 @@ body{
 .borgar{
     padding: 50px;
     width: 5vw;
+    transition-duration: .5s;
+}
+.borgarpos{
+    transform: rotate(180deg);
+    
 }
 .logo{
     height: 10vw;
@@ -18,18 +23,33 @@ body{
     position: relative;
 }
 .cart{
-    margin-left: 50vw;
+    margin:75px 0 0 65vw;
+    align-self: center;
+    height: 10vw;
+    width: 40vw;
+    color: rgb(235, 183, 235);
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.cart a{
+    text-decoration: none;
+    color: rgb(235, 183, 235);
+}
+.cart a:hover{
+    color: rgb(19, 140, 177);
 }
 .main{
     position: absolute;
-    width: 500px;
+    width: 800px;
+    height: 300px;
     left: calc(50vw - 250px);
     top: 115%;
     text-align: center;
 }
 .sidebar{
     left: 0px;
-    position: absolute;
+    position: fixed;
     transition: left 1s;
 }
 .sidebar ul {
@@ -40,8 +60,8 @@ body{
   }
 .sidebar li{
     display: block;
-    width: 60px;
-    font-family: "Lobster";
+    width: 80px;
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
     margin: 30px;
     color: white;
     font-size: 20px;
